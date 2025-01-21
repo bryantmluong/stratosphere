@@ -21,6 +21,6 @@ pip install -r requirements.txt
 
 Set up Alpaca API credentials:
 
-    Sign up for an Alpaca account at Alpaca Markets.
-    Obtain your API_KEY and SECRET_KEY from the Alpaca dashboard.
-    Create a config.py file in the src directory and add your credentials:
+   - Sign up for an Alpaca account at Alpaca Markets.
+   - Obtain your API_KEY and SECRET_KEY from the Alpaca dashboard.
+   - Create a config.py file in the src directory and add your credentials:
