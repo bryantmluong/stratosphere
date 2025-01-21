@@ -17,7 +17,7 @@ A Python-based trading bot that uses Alpaca's API to fetch market data and execu
 
 Install dependencies: You can install the required libraries using pip:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Set up Alpaca API credentials:
 
