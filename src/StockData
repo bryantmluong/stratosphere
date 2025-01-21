@@ -1,0 +1,21 @@
+from alpaca.data.historical import StockHistoricalDataClient
+from alpaca.data.requests import StockBarsRequest
+from alpaca.data.timeframe import TimeFrame
+import config
+
+# Initialize the historical data client
+historical_client = StockHistoricalDataClient(config.API_KEY, config.SECRET_KEY)
+
+# Create a request for stock bars
+request_params = StockBarsRequest(
+    symbol="SPY",  # Ticker symbol
+    timeframe=TimeFrame.Minute,  # Use TimeFrame.Minute, TimeFrame.Hour, etc.
+    limit=50  # Number of bars to fetch
+)
+
+# Fetch the data
+bars = historical_client.get_stock_bars(request_params)
+
+# Access the data
+latest_price = bars["SPY"][-1].close  # Use the last bar's close price
+print(f"Latest SPY price: ${latest_price:.2f}")
