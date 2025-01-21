@@ -11,8 +11,8 @@ A Python-based trading bot that uses Alpaca's API to fetch market data and execu
 
 # Installation
 
-    Clone the repository:
-
+ Clone the repository:
+ 
     git clone https://github.com/bryantmluong/stratosphere.git
 
 Install dependencies: You can install the required libraries using pip:
