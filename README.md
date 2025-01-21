@@ -1,4 +1,4 @@
-#Stratosphere Trading Bot
+# Stratosphere Trading Bot
 
 A Python-based trading bot that uses Alpaca's API to fetch market data and execute trades based on predictive strategies. This bot primarily focuses on stock trading using SPY (S&P 500 ETF) and can be adapted for options trading based on market analysis
 
